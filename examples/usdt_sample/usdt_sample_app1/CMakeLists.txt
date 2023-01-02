@@ -1,19 +1,3 @@
-cmake_minimum_required(VERSION 3.0)
-project(usdt_sample_app1)
-
-include_directories(
-    ${USDT_SAMPLE_LIB1_INCLUDE_DIR}
-)
-
-link_directories(
-    ${USDT_SAMPLE_LIB1_LINK_DIR}
-)
-
-add_executable( ${PROJECT_NAME}
-    ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
-)
-
-target_link_libraries( ${PROJECT_NAME}
-    ${USDT_SAMPLE_LIB1_LIB}
-    pthread
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:835fc7a2fee0a7c685a6dbd012cbf8a8af0fbdf399c7a68ca51fbcbbe2f23e04
+size 334

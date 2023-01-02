@@ -1,13 +1,3 @@
-FROM ubuntu:bionic
-
-MAINTAINER Brenden Blanco <bblanco@gmail.com>
-
-RUN apt-get -qq update && \
-    apt-get -y install pbuilder aptitude
-
-COPY ./ /root/bcc
-
-WORKDIR /root/bcc
-
-RUN /usr/lib/pbuilder/pbuilder-satisfydepends && \
-    ./scripts/build-deb.sh
+version https://git-lfs.github.com/spec/v1
+oid sha256:94b9eec954485b7705fc81fb8dcf66fd3749b8e387212109dd631697dd20daf4
+size 253

@@ -1,14 +1,3 @@
-# Copyright (c) PLUMgrid, Inc.
-# Licensed under the Apache License, Version 2.0 (the "License")
-configure_file(wrapper.sh.in "${CMAKE_CURRENT_BINARY_DIR}/wrapper.sh" @ONLY)
-
-set(TEST_WRAPPER ${CMAKE_CURRENT_BINARY_DIR}/wrapper.sh)
-
-add_test(NAME style-check COMMAND ${CMAKE_SOURCE_DIR}/scripts/c-style-check.sh)
-set_tests_properties(style-check PROPERTIES PASS_REGULAR_EXPRESSION ".*")
-
-if(ENABLE_CLANG_JIT)
-add_subdirectory(cc)
-add_subdirectory(python)
-add_subdirectory(lua)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5157759e786f91c6c0c814b3ec5343eeac7671298dcecdcbdd54287660dc569
+size 484

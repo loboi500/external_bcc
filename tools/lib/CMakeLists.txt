@@ -1,8 +1,3 @@
-file(GLOB PY_FILES *.py)
-file(GLOB TXT_FILES *.txt)
-list(REMOVE_ITEM TXT_FILES ${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt)
-foreach(FIL ${PY_FILES})
-  get_filename_component(FIL_WE ${FIL} NAME_WE)
-  install(PROGRAMS ${FIL} DESTINATION share/bcc/tools/lib RENAME ${FIL_WE})
-endforeach()
-install(FILES ${TXT_FILES} DESTINATION share/bcc/tools/doc/lib)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca0cde8e384929d1c8076910d8a83e9b615024fc08d531893a1717458349f537
+size 349

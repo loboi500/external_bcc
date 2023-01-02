@@ -1,4 +1,3 @@
-set(EXAMPLE_FILES README.txt simulation.py tc_neighbor_sharing.c)
-set(EXAMPLE_PROGRAMS tc_neighbor_sharing.py)
-install(FILES ${EXAMPLE_FILES} DESTINATION share/bcc/examples/networking/neighbor_sharing)
-install(PROGRAMS ${EXAMPLE_PROGRAMS} DESTINATION share/bcc/examples/networking/neighbor_sharing)
+version https://git-lfs.github.com/spec/v1
+oid sha256:53dc63c0bfb50b308021a1f5c7990646af8fabeb78cd176b3db18f9dfba73321
+size 299

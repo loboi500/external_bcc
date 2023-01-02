@@ -1,20 +1,3 @@
-# Quick Start Guide
-
-A Docker container is provided for user to try out [bcc](https://github.com/iovisor/bcc).
-
-From your host shell:
-```bash
-docker run -it --rm \
-  --privileged \
-  -v /lib/modules:/lib/modules:ro \
-  -v /usr/src:/usr/src:ro \
-  -v /etc/localtime:/etc/localtime:ro \
-  --workdir /usr/share/bcc/tools \
-  zlim/bcc
-```
-
-Now, from the container shell, you can try the various pre-installed bcc tools.
-
-For examples, please refer to the [tutorial](docs/tutorial.md#1-general-performance).
-
-If you wish to install bcc on your host, please refer to [INSTALL.md](INSTALL.md).
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b796da45b40da8e5ced1912c4ed9729f38114a75b6e2d4e441e8027933c27a3
+size 587

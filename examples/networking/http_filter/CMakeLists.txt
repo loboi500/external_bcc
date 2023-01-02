@@ -1,4 +1,3 @@
-set(FILES http-parse-complete.c http-parse-simple.c README.md)
-set(PROGRAMS http-parse-complete.py http-parse-simple.py)
-install(FILES ${FILES} DESTINATION share/bcc/examples/networking/http_filter)
-install(PROGRAMS ${PROGRAMS} DESTINATION share/bcc/examples/networking/http_filter)
+version https://git-lfs.github.com/spec/v1
+oid sha256:90b609391060f3980847799155f43496c5254e98b265f28692ae6f31b60c8ebb
+size 283

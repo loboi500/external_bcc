@@ -1,4 +1,3 @@
-set(EXAMPLE_FILES README.txt simulation.py vlan_learning.c)
-set(EXAMPLE_PROGRAMS vlan_learning.py)
-install(FILES ${EXAMPLE_FILES} DESTINATION share/bcc/examples/networking/vlan_learning)
-install(PROGRAMS ${EXAMPLE_PROGRAMS} DESTINATION share/bcc/examples/networking/vlan_learning)
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d489217ee8316bcc7895b6c8a4d61802ef5279de6b8a45fa5039d551708e7a2
+size 281

@@ -1,12 +1,3 @@
-# Copyright (c) Facebook, Inc.
-# Licensed under the Apache License, Version 2.0 (the "License")
-
-include_directories(${CMAKE_SOURCE_DIR}/src/cc)
-include_directories(${CMAKE_SOURCE_DIR}/src/cc/api)
-
-option(INSTALL_INTROSPECTION "Install BPF introspection tools" ON)
-
-add_executable(bps bps.c)
-target_link_libraries(bps bpf-static)
-
-install (TARGETS bps DESTINATION share/bcc/introspection)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed6d98768105be9ee029544429c9cd24028f79178b91b8b6f9acb7495a68bc53
+size 389

@@ -1,6 +1,3 @@
-file(GLOB C_FILES *.c)
-file(GLOB PY_FILES *.py)
-file(GLOB TXT_FILES *.txt)
-install(PROGRAMS ${PY_FILES} DESTINATION share/bcc/examples/tracing)
-install(FILES ${C_FILES} DESTINATION share/bcc/examples/tracing)
-install(FILES ${TXT_FILES} DESTINATION share/bcc/examples/tracing)
+version https://git-lfs.github.com/spec/v1
+oid sha256:478c44b0493edab7a7c042d879bbe9dad64e009b67b8b1bb77e2f9c088890d87
+size 276

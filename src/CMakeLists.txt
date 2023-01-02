@@ -1,21 +1,3 @@
-# Copyright (c) PLUMgrid, Inc.
-# Licensed under the Apache License, Version 2.0 (the "License")
-
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")
-
-if (ENABLE_RTTI)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
-else()
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti")
-endif()
-
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-include_directories(${CMAKE_CURRENT_BINARY_DIR})
-
-if(NOT PYTHON_ONLY)
-add_subdirectory(cc)
-endif()
-if(ENABLE_CLANG_JIT)
-add_subdirectory(python)
-add_subdirectory(lua)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:bacdcffd2c12f8c55fc84ad5379ce76e07c094bbe40a5a634700a16e0403c221
+size 494

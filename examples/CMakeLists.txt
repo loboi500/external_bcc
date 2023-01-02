@@ -1,11 +1,3 @@
-set(EXAMPLE_PROGRAMS hello_world.py)
-install(PROGRAMS ${EXAMPLE_PROGRAMS} DESTINATION share/bcc/examples)
-
-if(ENABLE_CLANG_JIT)
-if(ENABLE_USDT)
-add_subdirectory(cpp)
-endif(ENABLE_USDT)
-add_subdirectory(lua)
-add_subdirectory(networking)
-add_subdirectory(tracing)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:92148971ac53bad97fdde807a3c490d5a7e73872d37d779145aa578b484e9dc4
+size 270
